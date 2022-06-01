@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-side {
+    width: 50%;
+    height: 100%;
+    background:url(https://i.ytimg.com/vi/tDAEQbkeMS8/maxresdefault.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;      
+    background-attachment:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition:all .4s ease-in;
+}
+
+
+.right-side {
+    width: 50%;
+    height: 100%;
+    background:url(https://img.bolumsonucanavari.com/images/Upload/59960531-afb4-482f-84ed-2768a7265eee.jpg);
+    background-repeat: no-repeat;        
+    background-attachment:fixed;
+    background-size: cover; 
+    /* background-color:blue; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition:all .4s ease-in;
+}
+.right-side h1 {
+    margin-bottom:40px;
+    font-size:5rem;
+    color:White;
+}
+
+.right-side button {
+    width: 200px;
+    padding:20px;
+    color:white;
+    background-color:transparent;
+    border:1px solid white;
+}
+
+.right-side button:hover {
+    background-color:rgba(255, 255, 255, 0.426);
+    cursor:pointer;
+}
+
+.left-side button:hover {
+    background-color:rgba(255, 255, 255, 0.426);
+    cursor:pointer;
+}
+
+
+.left-side h1 {
+    margin-bottom:40px;
+    font-size:5rem;
+    color:White;
+}
+
+.left-side button {
+    width: 200px;
+    padding:20px;
+    color:white;
+    background-color:transparent;
+    border:1px solid white;
+}
+
+
